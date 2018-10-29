@@ -1,0 +1,98 @@
+.home-page {
+  margin-left: 10%;
+    margin-right: 10%;
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  section {
+    margin: 3em auto;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &.centered {
+      text-align: center;
+    }
+  }
+
+  form {
+    margin-bottom: 1em;
+
+    input {
+      outline: none;
+      border-bottom: 1px dotted #999;
+    }
+  }
+
+  span.at-prefix {
+    color: black;
+    margin-left: 0.4em;
+  }
+
+  .primary-button-honeywell {
+    background: #1792e5;
+    width: 90px;
+    border-radius: 0px;
+    color: white;
+    margin: 25px;
+    &:hover {
+      background: #046cb3;
+    }
+  }
+  .secondary-button-honeywell {
+    border: 2px solid #1792e5;
+    background: white;
+    width: 90px;
+    color: #1792e5 !important;
+    border-radius: 0px;
+    margin: 25px;
+    &:hover {
+      background: #f9f6f6 !important;
+      color: #fcfcfc;
+    }
+  }
+  // .MuiTypography-root-62 {
+  //   display: none;
+  // }
+
+  .stepper-form {
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 2%;
+  }
+
+  .stepper-form-2 {
+    margin-left: 10%;
+    // margin-right: 25%;
+    margin-top: 4%;
+    b {
+      color: green;
+    }
+  }
+  .stepper-form-3 {
+    margin-left: 1%;
+    // margin-right: 25%;
+    margin-top: 4%;
+    b {
+      color: green;
+    }
+  }
+  .confirm-label-data {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .row {
+    margin: 15px;
+  }
+  svg {
+    color: #1792e5 !important;
+  }
+  .MuiButton-textSecondary-793 {
+    color:white !important;
+  }
+  .success-snackbar {
+    visibility: inherit;
+  }
+}
